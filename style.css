@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#4facfe;
+}
+
+.card{
+    width:300px;
+    background:#fff;
+    padding:25px;
+    border-radius:12px;
+    text-align:center;
+}
+
+.search{
+    display:flex;
+    gap:10px;
+}
+
+.search input{
+    flex:1;
+    padding:8px;
+    border-radius:20px;
+    border:1px solid #ccc;
+    outline:none;
+}
+
+.search button{
+    padding:8px 12px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    background:#4facfe;
+    color:white;
+}
+
+.temp{
+    font-size:48px;
+    margin:15px 0 5px;
+}
+
+.details{
+    display:flex;
+    justify-content:space-between;
+    margin-top:20px;
+}
